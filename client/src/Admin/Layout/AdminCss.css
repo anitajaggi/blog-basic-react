@@ -1,0 +1,56 @@
+aside {
+    width: 20%;
+    background-color: #fff;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    border-right: 2px solid #5B913B;
+}
+
+.admin-main {
+    width: 100%;
+    background-color: #F6F5F2;
+    min-height: 100vh;
+}
+
+.main-content-area {
+    margin: 1rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: #fff;
+}
+
+
+.admin-header {
+    position: sticky;
+    background-color: #5B913B;
+    top: 0;
+}
+
+.toggle-btn {
+    fill: #fff;
+    cursor: pointer;
+}
+
+.sidebar-links {
+    padding: 0;
+}
+
+.sidebar-links li {
+    width: 100%;
+}
+
+.sidebar-links a {
+    display: inline-block;
+    width: 100%;
+    padding: 1rem;
+}
+
+.sidebar-links a.active {
+    border-left: 5px solid #5B913B;
+    background-color: #84be62;
+    color: #fff;
+}
+
+thead {
+    background-color: #5B913B;
+}
